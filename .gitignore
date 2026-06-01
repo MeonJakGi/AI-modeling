@@ -1,0 +1,49 @@
+# dataset / generated data
+dataset/
+data/
+synthetic/
+images/
+labels/
+labels_yolo/
+labels_yolo_seg/
+labels_json/
+
+# training outputs
+runs/
+wandb/
+logs/
+results/
+outputs/
+
+# model weights
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# large files
+*.zip
+*.tar
+*.mp4
+*.avi
+
+# image files
+*.png
+*.jpg
+*.jpeg
+
+# allow sample images in assets
+!assets/*.png
+!assets/*.jpg
+!assets/*.jpeg
+
+# notebook checkpoints
+.ipynb_checkpoints/
+
+# python cache
+__pycache__/
+*.pyc
+
+# secrets
+.env
